@@ -1,0 +1,86 @@
+<?php 
+
+class recette extends config{
+	public $nom;
+	public $nbr_ingredient1;
+	public $id_ingredient1;
+	public $nbr_ingredient2;
+	public $id_ingredient2;
+	public $nbr_ingredient3;
+	public $id_ingredient3;
+	public $nbr_ingredient4;
+	public $id_ingredient4;
+	public $nbr_ingredient5;
+	public $id_ingredient5;
+	public $nbr_ingredient6;
+	public $id_ingredient6;
+	public $nbr_ingredient7;
+	public $id_ingredient7;
+	public $nbr_ingredient8;
+	public $id_ingredient8;
+	public $nbr_ingredient9;
+	public $id_ingredient9;
+	public $nbr_ingredient10;
+	public $id_ingredient10;
+	public $nbr_ingredient11;
+	public $id_ingredient11;
+	public $nbr_ingredient12;
+	public $id_ingredient12;
+	public $nbr_ingredient13;
+	public $id_ingredient13;
+	public $nbr_ingredient14;
+	public $id_ingredient14;
+	public $nbr_ingredient15;
+	public $id_ingredient15;
+	public $explications;
+	public $temps_preparation;
+	public $temps_cuisson;
+	public $id_mode_cuisson;
+	public $note_difficulte;
+	public $id_utilisateur;
+	public $date_crea;
+	public $path_photo;
+
+	function __construct(){
+		parent::__construct();
+		$this->nom               = "";
+		$this->nbr_ingredient1   = 0;
+		$this->id_ingredient1    = 0;
+		$this->nbr_ingredient2   = 0;
+		$this->id_ingredient2    = 0;
+		$this->nbr_ingredient3   = 0;
+		$this->id_ingredient3    = 0;
+		$this->nbr_ingredient4   = 0;
+		$this->id_ingredient4    = 0;
+		$this->nbr_ingredient5   = 0;
+		$this->id_ingredient5    = 0;
+		$this->nbr_ingredient6   = 0;
+		$this->id_ingredient6    = 0;
+		$this->nbr_ingredient7   = 0;
+		$this->id_ingredient7    = 0;
+		$this->nbr_ingredient8   = 0;
+		$this->id_ingredient8    = 0;
+		$this->nbr_ingredient9   = 0;
+		$this->id_ingredient9    = 0;
+		$this->nbr_ingredient10  = 0;
+		$this->id_ingredient10   = 0;
+		$this->nbr_ingredient11  = 0;
+		$this->id_ingredient11   = 0;
+		$this->nbr_ingredient12  = 0;
+		$this->id_ingredient12   = 0;
+		$this->nbr_ingredient13  = 0;
+		$this->id_ingredient13   = 0;
+		$this->nbr_ingredient14  = 0;
+		$this->id_ingredient14   = 0;
+		$this->nbr_ingredient15  = 0;
+		$this->id_ingredient15   = 0;
+		$this->explications      = "";
+		$this->temps_preparation = "";
+		$this->temps_cuisson     = "";
+		$this->id_mode_cuisson   = 0;
+		$this->note_difficulte   = 0;
+		$this->id_utilisateur    = 0;
+		$this->date_crea         = date('Y-m-d H:i:s');
+		$this->path_photo        = "";
+	}
+}
