@@ -29,7 +29,7 @@ function Footer() { ?>
 <?php }
 
 function Menu($actif){ ?>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(106, 196, 112, 0.2);">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(106, 196, 112, 0.2);">
   <a class="navbar-brand navigation <?php echo ($actif == 0) ? 'active' : '' ?>" href="#"><i class="fas fa-cookie"></i> Accueil</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@ function Menu($actif){ ?>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item <?php echo ($actif == 1) ? 'active' : '' ?>">
-        <a class="nav-link" href="#">Recettes</a>
+        <a class="nav-link" href="<?php echo RACINE_GLOBAL_RELATIF ?>1-modules/recettes">Recettes</a>
       </li>
       <li class="nav-item <?php echo ($actif == 2) ? 'active' : '' ?>">
         <a class="nav-link" href="#">Générateur de repas</a>
